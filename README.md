@@ -2,4 +2,4 @@
 
 ## Resources
 
-* [https://www.youtube.com/watch?v=09_LlHjoEiY]
+* https://www.youtube.com/watch?v=09_LlHjoEiY
