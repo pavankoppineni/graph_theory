@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{94E13D79-677F-41D9-B2B5-EE6539E6F1D9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{A21B3FD7-7EAF-48BD-9EFC-D37BCA91EA29}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GraphTheory.Shell", "src\GraphTheory.Shell\GraphTheory.Shell.csproj", "{AB307BA5-2156-49E8-A840-E0046AE981CB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GraphTheory", "src\GraphTheory\GraphTheory.csproj", "{C7CF8578-5BE5-436B-A554-D13A69195F36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphTheory.Tests", "test\GraphTheory.Tests\GraphTheory.Tests.csproj", "{B321CB47-8731-4F72-8832-84003FFA26AE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AB307BA5-2156-49E8-A840-E0046AE981CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB307BA5-2156-49E8-A840-E0046AE981CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB307BA5-2156-49E8-A840-E0046AE981CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB307BA5-2156-49E8-A840-E0046AE981CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7CF8578-5BE5-436B-A554-D13A69195F36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7CF8578-5BE5-436B-A554-D13A69195F36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7CF8578-5BE5-436B-A554-D13A69195F36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7CF8578-5BE5-436B-A554-D13A69195F36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B321CB47-8731-4F72-8832-84003FFA26AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B321CB47-8731-4F72-8832-84003FFA26AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B321CB47-8731-4F72-8832-84003FFA26AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B321CB47-8731-4F72-8832-84003FFA26AE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AB307BA5-2156-49E8-A840-E0046AE981CB} = {94E13D79-677F-41D9-B2B5-EE6539E6F1D9}
+		{C7CF8578-5BE5-436B-A554-D13A69195F36} = {94E13D79-677F-41D9-B2B5-EE6539E6F1D9}
+		{B321CB47-8731-4F72-8832-84003FFA26AE} = {A21B3FD7-7EAF-48BD-9EFC-D37BCA91EA29}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C7F68A9F-7386-4AE6-852D-D3E88BF79D4E}
+	EndGlobalSection
+EndGlobal
